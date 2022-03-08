@@ -2,6 +2,7 @@
 
 const ContentSecurityPolicy = `
   default-src 'self';
+  script-src 'self';
 `;
 
 const nextConfig = {
